@@ -62,14 +62,10 @@ console.log(`Successfully wrote ${textLines.length} text lines to text_output.tx
 */
 
 const fs = require('fs');
-
-// Read and parse the JSON file
 const data = JSON.parse(fs.readFileSync('answers.json', 'utf-8'));
 
-// Extract all content from responses
 let contentLines = data.map(item => {
     try {
-        // Get the content from the nested structure
         if (item.response &&
             item.response.choices &&
             item.response.choices[0] &&
@@ -77,9 +73,9 @@ let contentLines = data.map(item => {
             item.response.choices[0].message.content) {
 
             return item.response.choices[0].message.content
-                .replace(/\n/g, ' ')      // Replace newlines with spaces
-                .replace(/\s+/g, ' ')     // Collapse multiple spaces
-                .trim();                  // Trim whitespace
+                .replace(/\n/g, ' ')
+                .replace(/\s+/g, ' ')
+                .trim();
         }
         return '';
     } catch (error) {
@@ -88,7 +84,6 @@ let contentLines = data.map(item => {
     }
 });
 
-// Ensure we have exactly 50 lines (pad with empty strings if needed)
 if (contentLines.length > 50) {
     contentLines = contentLines.slice(0, 50);
 } else if (contentLines.length < 50) {
@@ -96,7 +91,6 @@ if (contentLines.length > 50) {
     contentLines = contentLines.concat(Array(needed).fill(''));
 }
 
-// Write to the output file
 fs.writeFileSync('content_output.txt', contentLines.join('\n'));
 
 console.log(`Successfully wrote ${contentLines.length} content lines to content_output.txt`);
