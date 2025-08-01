@@ -1,0 +1,1652 @@
+[
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: What team is deployed for enterprise clients?\"",
+    "response": {
+      "id": "a1335486-a347-4604-acce-47ae53e9e971",
+      "object": "chat.completion",
+      "created": 1753980700,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "For enterprise clients with over 10,000 employees, the **Strategic Account Management team** is deployed. This team focuses on high-touch, long-term relationship building.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 170,
+        "total_tokens": 211,
+        "completion_tokens": 41,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: What size companies are considered mid-market?\"",
+    "response": {
+      "id": "80e9f7bd-382c-4c46-88dd-435381b1d832",
+      "object": "chat.completion",
+      "created": 1753980702,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, mid-market companies are defined as those with 500 to 10,000 employees.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 171,
+        "total_tokens": 200,
+        "completion_tokens": 29,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: What model is used for small businesses?\"",
+    "response": {
+      "id": "4fb41f25-e115-401c-8687-44d931f86a5a",
+      "object": "chat.completion",
+      "created": 1753980703,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "For startups and small businesses, the model used is a **fully self-service model**. In this model, customers can purchase and onboard directly from the company's website, supported by a product-led growth framework.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 170,
+        "total_tokens": 217,
+        "completion_tokens": 47,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: What does the Strategic Account Management team focus on?\"",
+    "response": {
+      "id": "adf2f0c8-a66c-4f7a-bdd0-df0861c09cdd",
+      "object": "chat.completion",
+      "created": 1753980734,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "The Strategic Account Management team focuses on:\n\n- **High-touch engagement**: Providing personalized and attentive service to meet the specific needs of enterprise clients.\n- **Long-term relationship building**: Developing and maintaining strong, enduring relationships with these large clients to ensure customer satisfaction and drive long-term growth.\n\nThe team is dedicated to serving enterprise clients, which are defined in this context as companies with over 10,000 employees.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 173,
+        "total_tokens": 273,
+        "completion_tokens": 100,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: What tools do Inside Sales Representatives rely on?\"",
+    "response": {
+      "id": "f3c53234-910e-4614-b94c-339243ff811f",
+      "object": "chat.completion",
+      "created": 1753980736,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, Inside Sales Representatives rely on the following tools:\n\n1. **CRM Automation**: This helps them manage customer interactions and data throughout the customer lifecycle.\n2. **Pre-sequenced Outreach**: This involves using pre-planned and automated sequences for contacting potential customers, likely through email, calls, or other communication channels.\n\nThese tools support their velocity-based sales model, which focuses on efficiency and speed.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 172,
+        "total_tokens": 269,
+        "completion_tokens": 97,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: How many approaches are in the go-to-market strategy?\"",
+    "response": {
+      "id": "89cbea2e-fe7b-44f1-95b8-0f9d6e4723bf",
+      "object": "chat.completion",
+      "created": 1753980739,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "The go-to-market strategy described in the passage leverages a three-pronged approach. Therefore, there are three approaches in the go-to-market strategy.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 175,
+        "total_tokens": 212,
+        "completion_tokens": 37,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: What framework supports the self-service model?\"",
+    "response": {
+      "id": "c27d2316-273b-48e3-b326-7cd3df42333d",
+      "object": "chat.completion",
+      "created": 1753980771,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "The framework that supports the self-service model for startups and small businesses is the **product-led growth framework**.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 171,
+        "total_tokens": 196,
+        "completion_tokens": 25,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: Where can small businesses purchase the product?\"",
+    "response": {
+      "id": "106b033e-d09e-47f5-ab6b-934f737684af",
+      "object": "chat.completion",
+      "created": 1753980772,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, small businesses can purchase the product directly from the company's website. The go-to-market strategy for startups and small businesses utilizes a fully self-service model, allowing customers to purchase and onboard without direct sales interaction, supported by a product-led growth framework.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 170,
+        "total_tokens": 233,
+        "completion_tokens": 63,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: What type of model is used for mid-market companies?\"",
+    "response": {
+      "id": "ec64e1c3-1a6c-4693-9f5e-d3b49d13144c",
+      "object": "chat.completion",
+      "created": 1753980773,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "For mid-market companies, defined as those with 500 to 10,000 employees, the model used is a **velocity-based model**. This approach relies heavily on CRM (Customer Relationship Management) automation and pre-sequenced outreach.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 174,
+        "total_tokens": 235,
+        "completion_tokens": 61,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: What is the minimum employee count for enterprise clients?\"",
+    "response": {
+      "id": "af73c4c1-846e-4694-b645-ac5ecb068282",
+      "object": "chat.completion",
+      "created": 1753980805,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "The passage specifies that enterprise clients are those with \"over 10,000 employees.\" Therefore, the minimum employee count for enterprise clients is 10,001.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 172,
+        "total_tokens": 212,
+        "completion_tokens": 40,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: How many phases are in the development lifecycle?\"",
+    "response": {
+      "id": "6cdafabd-df73-4a1b-a428-f317ef41e54a",
+      "object": "chat.completion",
+      "created": 1753980806,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "The software development lifecycle at your company follows six key phases. Therefore, there are 6 phases in the development lifecycle.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 103,
+        "total_tokens": 130,
+        "completion_tokens": 27,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: Which phase takes the most time?\"",
+    "response": {
+      "id": "8206cd39-7b81-4d7a-a5ae-cb437221502b",
+      "object": "chat.completion",
+      "created": 1753980807,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, the implementation phase takes the most time. It is stated that this phase typically consumes 40% of the total timeline, which is the largest proportion mentioned for any phase.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 100,
+        "total_tokens": 143,
+        "completion_tokens": 43,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: Who approves phase transitions?\"",
+    "response": {
+      "id": "57f0aca4-f73f-4964-9533-86655146f879",
+      "object": "chat.completion",
+      "created": 1753980838,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, the quality assurance (QA) team approves phase transitions in the software development lifecycle. The text states that \"each phase requires approval from the quality assurance team before proceeding to the next stage.\"",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 99,
+        "total_tokens": 148,
+        "completion_tokens": 49,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: What is the average project duration?\"",
+    "response": {
+      "id": "d5c2fdf5-e81b-4993-96d3-ae5c0a891bfc",
+      "object": "chat.completion",
+      "created": 1753980840,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "The average project duration is 12 weeks from start to finish, as stated in the passage.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 100,
+        "total_tokens": 121,
+        "completion_tokens": 21,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: What percentage of time does implementation take?\"",
+    "response": {
+      "id": "c0e43f86-5ecd-40ea-a7ba-cbe67794a543",
+      "object": "chat.completion",
+      "created": 1753980841,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "According to the passage, the implementation phase typically consumes 40% of the total timeline.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 101,
+        "total_tokens": 123,
+        "completion_tokens": 22,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: What is the first phase of the lifecycle?\"",
+    "response": {
+      "id": "1209efc5-e5cb-49f3-a5e9-4dee22e61f26",
+      "object": "chat.completion",
+      "created": 1753980872,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "The first phase of the software development lifecycle, as described in the passage, is **\"requirements gathering.\"**",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 103,
+        "total_tokens": 127,
+        "completion_tokens": 24,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: What is the final phase of the lifecycle?\"",
+    "response": {
+      "id": "3cd6f863-6472-46e7-bb4b-97d15d4b133f",
+      "object": "chat.completion",
+      "created": 1753980873,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "The final phase of the software development lifecycle, as described in the passage, is **maintenance**.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 103,
+        "total_tokens": 125,
+        "completion_tokens": 22,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: What is required before proceeding to the next phase?\"",
+    "response": {
+      "id": "7a5ae990-dbac-4f95-a7ee-758c05792612",
+      "object": "chat.completion",
+      "created": 1753980874,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Before proceeding to the next phase in the software development lifecycle at the company, **approval from the quality assurance team** is required for each specific phase. This ensures that the deliverables for each phase meet the necessary standards before moving forward.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 104,
+        "total_tokens": 156,
+        "completion_tokens": 52,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: What follows the testing phase?\"",
+    "response": {
+      "id": "5188f58f-30e1-4c6c-be21-d65e85a1e004",
+      "object": "chat.completion",
+      "created": 1753980906,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, the phase that follows the testing phase is the deployment phase. The software development lifecycle outlined is as follows:\n\n1. Requirements gathering\n2. Design\n3. Implementation\n4. Testing\n5. Deployment\n6. Maintenance",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 99,
+        "total_tokens": 159,
+        "completion_tokens": 60,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: What comes between design and testing?\"",
+    "response": {
+      "id": "03a1b5f7-a16d-47fa-b003-d72b344cd7c7",
+      "object": "chat.completion",
+      "created": 1753980907,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, the phase that comes between design and testing is:\n\n**Implementation**\n\nThe software development lifecycle phases given are:\n1. Requirements gathering\n2. Design\n3. Implementation\n4. Testing\n5. Deployment\n6. Maintenance\n\nSo, \"implementation\" is the phase that comes between design and testing.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 100,
+        "total_tokens": 182,
+        "completion_tokens": 82,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: What percentage of issues can Tier 1 resolve?\"",
+    "response": {
+      "id": "dd876b3e-c3a3-485a-bd13-42ed064f799b",
+      "object": "chat.completion",
+      "created": 1753980909,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, Tier 1 can resolve 65% of issues immediately.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 136,
+        "total_tokens": 156,
+        "completion_tokens": 20,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: Who handles critical system outages?\"",
+    "response": {
+      "id": "bc90e9ff-bdc5-4595-9006-ae456ae178a9",
+      "object": "chat.completion",
+      "created": 1753980939,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "According to the passage, **Tier 3** handles critical system outages. This tier is staffed by senior engineers who have direct access to the development team.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 132,
+        "total_tokens": 167,
+        "completion_tokens": 35,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: What is the response time for Tier 2?\"",
+    "response": {
+      "id": "1babb28f-5763-4cdd-abce-015ec5a485b4",
+      "object": "chat.completion",
+      "created": 1753980940,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "The response time for Tier 2 is 15 minutes.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 136,
+        "total_tokens": 151,
+        "completion_tokens": 15,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: How many tiers of service are there?\"",
+    "response": {
+      "id": "c0c10953-58ae-4bd5-9265-13413819019b",
+      "object": "chat.completion",
+      "created": 1753980941,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, there are three tiers of service.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 134,
+        "total_tokens": 148,
+        "completion_tokens": 14,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: What does Tier 1 handle?\"",
+    "response": {
+      "id": "29089853-4977-4b34-8566-f28901e110f9",
+      "object": "chat.completion",
+      "created": 1753980972,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Tier 1 handles general inquiries and can resolve 65% of issues immediately. They are typically the first point of contact for customers and deal with straightforward questions and problems.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 133,
+        "total_tokens": 172,
+        "completion_tokens": 39,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: Who has direct access to the development team?\"",
+    "response": {
+      "id": "5db897d4-c3a6-4ba5-a96d-144ca452bf23",
+      "object": "chat.completion",
+      "created": 1753980973,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "According to the passage, **Tier 3** staff, which consists of senior engineers, has direct access to the development team.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 134,
+        "total_tokens": 162,
+        "completion_tokens": 28,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: What is the response time for Tier 1?\"",
+    "response": {
+      "id": "97ee0983-a3b3-438d-bb27-3e0267107bc0",
+      "object": "chat.completion",
+      "created": 1753980974,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "The response time for Tier 1 is under 2 minutes.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 136,
+        "total_tokens": 151,
+        "completion_tokens": 15,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: What type of technicians are in Tier 2?\"",
+    "response": {
+      "id": "c2113712-4999-457b-9338-70296ba9d990",
+      "object": "chat.completion",
+      "created": 1753981005,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "According to the passage, Tier 2 consists of **specialized technicians** who address more complex technical problems.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 137,
+        "total_tokens": 162,
+        "completion_tokens": 25,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: When is Tier 3 activated?\"",
+    "response": {
+      "id": "95293326-c51a-45a3-b555-a6cff288acd6",
+      "object": "chat.completion",
+      "created": 1753981006,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Tier 3 is activated for \"critical system outages.\" These are likely severe issues that require the immediate attention of senior engineers and possibly the development team. The passage also mentions that the response time for Tier 3 issues is immediate, indicating the highest level of urgency and priority.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 133,
+        "total_tokens": 195,
+        "completion_tokens": 62,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: How quickly does Tier 3 respond?\"",
+    "response": {
+      "id": "ee2796a4-670e-4739-936f-1602eaa54834",
+      "object": "chat.completion",
+      "created": 1753981008,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "According to the passage, Tier 3 responds \"immediately\" to issues.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 134,
+        "total_tokens": 154,
+        "completion_tokens": 20,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: What is the 401(k) match percentage?\"",
+    "response": {
+      "id": "fd1e4f91-1adb-4164-a8d3-aea81eeb706f",
+      "object": "chat.completion",
+      "created": 1753981039,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "The 401(k) match percentage is up to 6% of salary.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 109,
+        "total_tokens": 129,
+        "completion_tokens": 20,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: How many health insurance options are there?\"",
+    "response": {
+      "id": "00f43bca-ba19-43d6-b5c3-8cd8ccb38db6",
+      "object": "chat.completion",
+      "created": 1753981039,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage provided, there are three health insurance plan options. The passage states: \"Employee benefits include comprehensive health insurance with **three plan options**...\"",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 104,
+        "total_tokens": 138,
+        "completion_tokens": 34,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: What is the professional development stipend amount?\"",
+    "response": {
+      "id": "61c9708a-81db-4dca-bf38-d7a04245ef25",
+      "object": "chat.completion",
+      "created": 1753981040,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "The professional development stipend amount is $2,500 per year.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 106,
+        "total_tokens": 124,
+        "completion_tokens": 18,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: What do new hires receive in their first month?\"",
+    "response": {
+      "id": "e47dde75-0c06-478a-b72c-b32a22fec734",
+      "object": "chat.completion",
+      "created": 1753981071,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "New hires receive a $1,000 wellness bonus in their first month.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 107,
+        "total_tokens": 127,
+        "completion_tokens": 20,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: When do employees get free lunch?\"",
+    "response": {
+      "id": "258f8d66-96bb-43d0-87f6-2b906d3a1620",
+      "object": "chat.completion",
+      "created": 1753981072,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, employees get free lunch on Fridays.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 103,
+        "total_tokens": 117,
+        "completion_tokens": 14,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: What is required for unlimited PTO?\"",
+    "response": {
+      "id": "86107ca3-71c1-4e57-8b7b-3651e27bdb40",
+      "object": "chat.completion",
+      "created": 1753981073,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, unlimited PTO (Paid Time Off) is offered, but it requires **manager approval**. This means that while the amount of PTO is not capped, employees need to get their manager's approval to take time off.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 105,
+        "total_tokens": 159,
+        "completion_tokens": 54,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: How often is the professional development stipend provided?\"",
+    "response": {
+      "id": "02d31d51-7722-439d-99ba-5b641eb140f4",
+      "object": "chat.completion",
+      "created": 1753981105,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, the professional development stipend of $2,500 is provided yearly.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 107,
+        "total_tokens": 131,
+        "completion_tokens": 24,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: What type of insurance is offered?\"",
+    "response": {
+      "id": "166ec0a4-accd-4116-8ba7-ed9d518a5b46",
+      "object": "chat.completion",
+      "created": 1753981106,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, the type of insurance offered is:\n\n**Comprehensive health insurance** with three plan options.\n\nThe passage does not mention any other types of insurance being offered.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 103,
+        "total_tokens": 146,
+        "completion_tokens": 43,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: What is matched in the retirement plan?\"",
+    "response": {
+      "id": "c4029675-5a40-48f6-9c2c-370665c0b5d0",
+      "object": "chat.completion",
+      "created": 1753981107,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "In the retirement plan, the employer matches up to **6% of the employee's salary** in the 401(k) plan.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 104,
+        "total_tokens": 136,
+        "completion_tokens": 32,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: Who gets the wellness bonus?\"",
+    "response": {
+      "id": "9ef48f0b-ef1b-4683-a662-b12a5692d579",
+      "object": "chat.completion",
+      "created": 1753981138,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, the $1,000 wellness bonus is specifically for \"new hires\" and it is given in their first month. Therefore, only new employees receive this bonus.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 103,
+        "total_tokens": 145,
+        "completion_tokens": 42,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: What is the carbon emission reduction target?\"",
+    "response": {
+      "id": "f03ef5c1-42c0-41d2-bc26-d9a67b2c2b06",
+      "object": "chat.completion",
+      "created": 1753981139,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "The carbon emission reduction target is **50% by 2030**.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 119,
+        "total_tokens": 137,
+        "completion_tokens": 18,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: What percentage of energy comes from solar panels?\"",
+    "response": {
+      "id": "0ad6b311-ef4c-4a85-ae7d-757a0379ff52",
+      "object": "chat.completion",
+      "created": 1753981140,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, 30% of the company's energy needs at their headquarters are provided by solar panels. The passage states: \"We've already installed solar panels at our headquarters, which now provide 30% of our energy needs.\"",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 120,
+        "total_tokens": 174,
+        "completion_tokens": 54,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: What percentage of waste is diverted from landfills?\"",
+    "response": {
+      "id": "3b061630-8076-46e1-9548-32b5870cc5ec",
+      "object": "chat.completion",
+      "created": 1753981171,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "According to the passage, the company-wide recycling program diverts **85% of waste from landfills**.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 123,
+        "total_tokens": 149,
+        "completion_tokens": 26,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: Where are solar panels installed?",
+    "response": {
+      "id": "f10e6417-a713-432f-9932-8d2e4fcc7305",
+      "object": "chat.completion",
+      "created": 1753981172,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, the solar panels are installed at the company's headquarters.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 117,
+        "total_tokens": 135,
+        "completion_tokens": 18,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: What is the renewable energy sourcing goal?\"",
+    "response": {
+      "id": "8b446e5c-3263-4416-a06c-8ca55cbb0746",
+      "object": "chat.completion",
+      "created": 1753981173,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, the company's renewable energy sourcing goal is:\n\n**\"sourcing 100% renewable energy for operations.\"**",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 121,
+        "total_tokens": 158,
+        "completion_tokens": 37,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: How many key areas does the initiative focus on?\"",
+    "response": {
+      "id": "ef06b6ae-c700-4e71-b95b-7af0e6fc669e",
+      "object": "chat.completion",
+      "created": 1753981205,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "The company's sustainability initiative focuses on three key areas.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 121,
+        "total_tokens": 135,
+        "completion_tokens": 14,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: What waste goal applies to all facilities?\"",
+    "response": {
+      "id": "d4813a10-c243-4690-974c-931f653d23c7",
+      "object": "chat.completion",
+      "created": 1753981205,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "The waste goal that applies to all facilities is:\n\n**\"Achieving zero waste to landfill.\"**",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 119,
+        "total_tokens": 144,
+        "completion_tokens": 25,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: What program diverts waste from landfills?\"",
+    "response": {
+      "id": "e1344d68-bc97-4dba-8838-e58a818c1012",
+      "object": "chat.completion",
+      "created": 1753981206,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "The program that diverts waste from landfills is the **company-wide recycling program**, which currently diverts 85% of waste from landfills.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 121,
+        "total_tokens": 157,
+        "completion_tokens": 36,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: By what year is the emission reduction target?\"",
+    "response": {
+      "id": "7160604d-541d-4950-a097-5a38a2838110",
+      "object": "chat.completion",
+      "created": 1753981238,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "The passage states that the company aims to reduce carbon emissions by 50% by the year **2030**.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 120,
+        "total_tokens": 146,
+        "completion_tokens": 26,
+        "request_count": null
+      }
+    }
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: What provides part of the company's energy needs?\"",
+    "response": {
+      "id": "de23ad14-e7d9-4945-859d-76570856e561",
+      "object": "chat.completion",
+      "created": 1753981239,
+      "model": "pixtral-large-2502",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "tool_calls": null,
+            "index": null,
+            "tool_call_id": null,
+            "content": "Based on the passage, **solar panels** installed at the company's headquarters provide 30% of their energy needs.",
+            "audio": null,
+            "metadata": null
+          },
+          "finish_reason": "stop",
+          "logprobs": null,
+          "context_logits": null,
+          "generation_logits": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 122,
+        "total_tokens": 150,
+        "completion_tokens": 28,
+        "request_count": null
+      }
+    }
+  }
+]
