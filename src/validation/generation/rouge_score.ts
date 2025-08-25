@@ -1,10 +1,3 @@
-/*
-import { string } from 'mathjs';
-import { Rouge } from 'rouge';
+//Code on google colab notebook
 
-
-string candidateText = new string " ";
-string referenceText = new string " ";
-const rouge = new Rouge();
-const scores = rouge.score(candidateText, referenceText);
-console.log(scores); // { rouge1: ..., rougeL: ... } */
+// https://colab.research.google.com/drive/1Ga-79m0oJ4fRab47txkKY7sWfRLHnNwa#scrollTo=HuT0fWhl0xWS

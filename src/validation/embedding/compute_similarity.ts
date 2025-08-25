@@ -1,45 +1,164 @@
-class VectorUtils {
-  /* Calculates the cosine similarity between two vectors */
-  static cosineSimilarity(vecA: number[], vecB: number[]): number {
-    if (vecA.length !== vecB.length) {
-      throw new Error(`Vector dimensions don't match: ${vecA.length} vs ${vecB.length}`);
-    }
+import { readFile, writeFile } from 'fs/promises';
 
-    const dotProduct = vecA.reduce((sum, a, i) => sum + a * vecB[i], 0);
-    const magnitudeA = Math.hypot(...vecA);
-    const magnitudeB = Math.hypot(...vecB);
+interface EmbeddingResult {
+  text: string;
+  embedding: number[];
+  tokenCount?: number;
+  error?: string;
+}
 
-    if (magnitudeA === 0 || magnitudeB === 0) {
-      return 0;
-    }
-    return dotProduct / (magnitudeA * magnitudeB);
+interface SimilarityResult {
+  text1: string;
+  text2: string;
+  cosineSimilarity: number;
+  interpretation: string;
+}
+
+function calculateCosineSimilarity(vecA: number[], vecB: number[]): number {
+  let dotProduct = 0;
+  let normA = 0;
+  let normB = 0;
+
+  for (let i = 0; i < vecA.length; i++) {
+    dotProduct += vecA[i] * vecB[i];
+    normA += vecA[i] ** 2;
+    normB += vecB[i] ** 2;
   }
 
-  /* dot product of two vectors */
-  static dotProduct(vecA: number[], vecB: number[]): number {
-    if (vecA.length !== vecB.length) {
-      throw new Error(`Vector dimensions don't match: ${vecA.length} vs ${vecB.length}`);
+  return dotProduct / (Math.sqrt(normA) * Math.sqrt(normB));
+}
+
+function interpretSimilarity(score: number): string {
+  if (score > 0.85) return "Nearly identical";
+  if (score > 0.65) return "Very similar";
+  if (score > 0.45) return "Somewhat related";
+  if (score > 0.25) return "Weakly related";
+  return "Unrelated";
+}
+
+async function calculateAdjacentSimilarity() {
+  try {
+    const { results } = JSON.parse(
+      await readFile('./embeddings.json', 'utf-8')
+    ) as { results: EmbeddingResult[] };
+
+    const validResults = results.filter(r => r.embedding && !r.error);
+    const comparisons: SimilarityResult[] = [];
+
+    for (let i = 0; i < validResults.length - 1; i++) {
+      const current = validResults[i];
+      const next = validResults[i + 1];
+
+      const similarity = calculateCosineSimilarity(
+        current.embedding,
+        next.embedding
+      );
+
+      comparisons.push({
+        text1: current.text.substring(0, 50),
+        text2: next.text.substring(0, 50),
+        cosineSimilarity: parseFloat(similarity.toFixed(4)),
+        interpretation: interpretSimilarity(similarity)
+      });
     }
-    return vecA.reduce((sum, a, i) => sum + a * vecB[i], 0);
-  }
 
-  /* magnitude of a vector */
-  static magnitude(vec: number[]): number {
-    return Math.hypot(...vec);
-  }
+    await writeFile(
+      './adjacent-similarity.json',
+      JSON.stringify({ comparisons }, null, 2)
+    );
 
-  /* Normalizes a vector */
-  static normalize(vec: number[]): number[] {
-    const mag = this.magnitude(vec);
-    if (mag === 0) {
-      return Array(vec.length).fill(0);
-    }
-    return vec.map(v => v / mag);
-  }
+    console.log('Results saved to adjacent-similarity.json');
 
-  /* Converts cosine similarity to angular distance in degrees */
-  static similarityToDegrees(similarity: number): number {
-    const clampedSimilarity = Math.max(-1, Math.min(1, similarity));
-    return Math.acos(clampedSimilarity) * (180 / Math.PI);
+  } catch (error) {
+    console.error('Calculation failed:', error);
+    process.exit(1);
   }
 }
+
+calculateAdjacentSimilarity();
+
+/*
+import { readFile, writeFile } from 'fs/promises';
+
+interface EmbeddingResult {
+  prompt: string;
+  embedding: number[];
+  tokenCount?: number;
+  error?: string;
+}
+
+interface SimilarityResult {
+  text1: string;
+  text2: string;
+  cosineSimilarity: number;
+  interpretation: string;
+}
+
+
+function calculateCosineSimilarity(vecA: number[], vecB: number[]): number {
+  let dotProduct = 0;
+  let normA = 0;
+  let normB = 0;
+
+  for (let i = 0; i < vecA.length; i++) {
+    dotProduct += vecA[i] * vecB[i];
+    normA += vecA[i] ** 2;
+    normB += vecB[i] ** 2;
+  }
+
+  if (normA === 0 || normB === 0) {
+    return 0;
+  }
+  return dotProduct / (Math.sqrt(normA) * Math.sqrt(normB));
+}
+
+function interpretSimilarity(score: number): string {
+  if (score > 0.85) return "Nearly identical";
+  if (score > 0.65) return "Very similar";
+  if (score > 0.45) return "Somewhat related";
+  if (score > 0.25) return "Weakly related";
+  return "Unrelated";
+}
+
+async function calculateAdjacentSimilarity() {
+  try {
+
+    const embeddings = JSON.parse(
+      await readFile('./embeddings.json', 'utf-8')
+    ) as EmbeddingResult[];
+
+    const validResults = embeddings.filter(r => r.embedding && !r.error);
+    const comparisons: SimilarityResult[] = [];
+
+    for (let i = 0; i < validResults.length - 1; i++) {
+      const current = validResults[i];
+      const next = validResults[i + 1];
+
+      if (!current.embedding || !next.embedding) continue;
+
+      const similarity = calculateCosineSimilarity(
+        current.embedding,
+        next.embedding
+      );
+
+      comparisons.push({
+        text1: current.prompt.substring(0, 50),
+        text2: next.prompt.substring(0, 50),
+        cosineSimilarity: parseFloat(similarity.toFixed(4)),
+        interpretation: interpretSimilarity(similarity)
+      });
+    }
+    await writeFile(
+      './adjacent-similarity.json',
+      JSON.stringify({ comparisons }, null, 2)
+    );
+
+    console.log('Results saved to adjacent-similarity.json');
+
+  } catch (error) {
+    console.error('Calculation failed:', error);
+    process.exit(1);
+  }
+}
+
+calculateAdjacentSimilarity(); */

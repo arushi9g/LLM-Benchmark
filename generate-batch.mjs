@@ -17,7 +17,6 @@ async function main() {
 
     for (let i = 0; i < prompts.length; i++) {
         const prompt = prompts[i];
-        console.log(`Generating for prompt ${i + 1}/${prompts.length}: "${prompt}"`);
 
         try {
             const url = `${endpoint}?prompt=${encodeURIComponent(prompt)}`;
@@ -30,9 +29,8 @@ async function main() {
             results.push({ prompt, error: err.message });
         }
 
-        // Delay 10 seconds after every 10 prompts
         if ((i + 1) % 3 === 0 && i !== prompts.length - 1) {
-            console.log('30 second wait...');
+            console.log('Delay...');
             await sleep(30000);
         }
     }

@@ -30,7 +30,8 @@ let BedrockService = class BedrockService {
         });
     }
     /* WORKING CODE FOR Llama 3.3 70B Instruct */
-    /*async generateText(prompt: string, modelId = 'meta.llama3-3-70b-instruct-v1:0') {
+    /*
+    async generateText(prompt: string, modelId = 'meta.llama3-3-70b-instruct-v1:0') {
       const body = JSON.stringify({
         prompt,
         max_gen_len: 100,
@@ -51,7 +52,8 @@ let BedrockService = class BedrockService {
       return JSON.parse(responseBody);
     } */
     /* WORKING CODE FOR Llama 3.2 90B Instruct */
-    /* async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.meta.llama3-2-90b-instruct-v1:0') {
+    /*
+    async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.meta.llama3-2-90b-instruct-v1:0') {
       const body = JSON.stringify({
         prompt,
         max_gen_len: 100,
@@ -72,7 +74,8 @@ let BedrockService = class BedrockService {
       return JSON.parse(responseBody);
     } */
     /* WORKING CODE FOR Llama 4 Scout 17B Instruct */
-    /*async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.meta.llama4-scout-17b-instruct-v1:0') {
+    /*
+    async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.meta.llama4-scout-17b-instruct-v1:0') {
       const body = JSON.stringify({
         prompt,
         max_gen_len: 100,
@@ -93,7 +96,8 @@ let BedrockService = class BedrockService {
       return JSON.parse(responseBody);
     } */
     /* WORKING CODE FOR Llama 4 Maverick 17B Instruct */
-    /* async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.meta.llama4-maverick-17b-instruct-v1:0') {
+    /*
+    async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.meta.llama4-maverick-17b-instruct-v1:0') {
       const body = JSON.stringify({
         prompt,
         max_gen_len: 100,
@@ -115,72 +119,75 @@ let BedrockService = class BedrockService {
     } */
     /* WORKING CODE FOR Claude 3 Haiku */
     /*
-    async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.anthropic.claude-3-haiku-20240307-v1:0') { // ← Use ARN
-      const body = JSON.stringify({
-        anthropic_version: "bedrock-2023-05-31",
-        max_tokens: 1000,
-        messages: [{
-          role: "user",
-          content: [{ type: "text", text: prompt }]
-        }]
-      });
-  
-      const command = new InvokeModelCommand({
-        modelId,
-        body: new TextEncoder().encode(body),
-        contentType: 'application/json',
-        accept: 'application/json',
-      });
-  
-      const response = await this.client.send(command);
-      const responseBody = new TextDecoder().decode(response.body);
-      return JSON.parse(responseBody);
-    } */
+      async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.anthropic.claude-3-haiku-20240307-v1:0') { // ← Use ARN
+        const body = JSON.stringify({
+          anthropic_version: "bedrock-2023-05-31",
+          max_tokens: 1000,
+          messages: [{
+            role: "user",
+            content: [{ type: "text", text: prompt }]
+          }]
+        });
+    
+        const command = new InvokeModelCommand({
+          modelId,
+          body: new TextEncoder().encode(body),
+          contentType: 'application/json',
+          accept: 'application/json',
+        });
+    
+        const response = await this.client.send(command);
+        const responseBody = new TextDecoder().decode(response.body);
+        return JSON.parse(responseBody);
+      }
+      */
     /*WORKING CODE for Claude Sonnet 3.5 */
     /*
-    async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.anthropic.claude-3-5-sonnet-20240620-v1:0') { // ← Use ARN
-      const body = JSON.stringify({
-        anthropic_version: "bedrock-2023-05-31",
-        max_tokens: 1000,
-        messages: [{
-          role: "user",
-          content: [{ type: "text", text: prompt }]
-        }]
-      });
-  
-      const command = new InvokeModelCommand({
-        modelId,
-        body: new TextEncoder().encode(body),
-        contentType: 'application/json',
-        accept: 'application/json',
-      });
-  
-      const response = await this.client.send(command);
-      const responseBody = new TextDecoder().decode(response.body);
-      return JSON.parse(responseBody);
-    } */
+      async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.anthropic.claude-3-5-sonnet-20240620-v1:0') { // ← Use ARN
+        const body = JSON.stringify({
+          anthropic_version: "bedrock-2023-05-31",
+          max_tokens: 1000,
+          messages: [{
+            role: "user",
+            content: [{ type: "text", text: prompt }]
+          }]
+        });
+    
+        const command = new InvokeModelCommand({
+          modelId,
+          body: new TextEncoder().encode(body),
+          contentType: 'application/json',
+          accept: 'application/json',
+        });
+    
+        const response = await this.client.send(command);
+        const responseBody = new TextDecoder().decode(response.body);
+        return JSON.parse(responseBody);
+      } */
     /* WORKING CODE FOR Nova Lite */
-    /* async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.amazon.nova-lite-v1:0') { // ← Use ARN
-       const body = JSON.stringify({
-         messages: [{
-           role: "user",
-           content: [{ text: prompt }]
-         }]
-       });
-   
-       const command = new InvokeModelCommand({
-         modelId,
-         body: new TextEncoder().encode(body),
-         contentType: 'application/json',
-         accept: 'application/json',
-       });
-   
-       const response = await this.client.send(command);
-       const responseBody = new TextDecoder().decode(response.body);
-       return JSON.parse(responseBody);
-     } */
+    /*
+      async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.amazon.nova-lite-v1:0') { // ← Use ARN
+        const body = JSON.stringify({
+          messages: [{
+            role: "user",
+            content: [{ text: prompt }]
+          }]
+        });
+    
+        const command = new InvokeModelCommand({
+          modelId,
+          body: new TextEncoder().encode(body),
+          contentType: 'application/json',
+          accept: 'application/json',
+        });
+    
+        const response = await this.client.send(command);
+        const responseBody = new TextDecoder().decode(response.body);
+        return JSON.parse(responseBody);
+      } */
     /* WORKING CODE FOR Nova Micro */
-    /* async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.amazon.nova-micro-v1:0') { // ← Use ARN
+    /*
+    async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.amazon.nova-micro-v1:0') { // ← Use ARN
       const body = JSON.stringify({
         messages: [{
           role: "user",
@@ -200,7 +207,8 @@ let BedrockService = class BedrockService {
       return JSON.parse(responseBody);
     } */
     /* WORKING CODE FOR Nova Premier */
-    /*async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.amazon.nova-premier-v1:0') { // ← Use ARN
+    /*
+    async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.amazon.nova-premier-v1:0') { // ← Use ARN
       const body = JSON.stringify({
         messages: [{
           role: "user",
@@ -220,7 +228,8 @@ let BedrockService = class BedrockService {
       return JSON.parse(responseBody);
     } */
     /* WORKING CODE FOR Nova Pro */
-    /*async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.amazon.nova-pro-v1:0') { // ← Use ARN
+    /*
+    async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.amazon.nova-pro-v1:0') { // ← Use ARN
       const body = JSON.stringify({
         messages: [{
           role: "user",
@@ -259,27 +268,27 @@ let BedrockService = class BedrockService {
     }
     /* WORKING CODE FOR Claude Sonnet 3.7 */
     /*
-    async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.anthropic.claude-3-7-sonnet-20250219-v1:0') { // ← Use ARN
-      const body = JSON.stringify({
-        anthropic_version: "bedrock-2023-05-31",
-        max_tokens: 1000,
-        messages: [{
-          role: "user",
-          content: [{ type: "text", text: prompt }]
-        }]
-      });
-  
-      const command = new InvokeModelCommand({
-        modelId,
-        body: new TextEncoder().encode(body),
-        contentType: 'application/json',
-        accept: 'application/json',
-      });
-  
-      const response = await this.client.send(command);
-      const responseBody = new TextDecoder().decode(response.body);
-      return JSON.parse(responseBody);
-    } */
+      async generateText(prompt: string, modelId = 'arn:aws:bedrock:us-east-2:277707123286:inference-profile/us.anthropic.claude-3-7-sonnet-20250219-v1:0') { // ← Use ARN
+        const body = JSON.stringify({
+          anthropic_version: "bedrock-2023-05-31",
+          max_tokens: 1000,
+          messages: [{
+            role: "user",
+            content: [{ type: "text", text: prompt }]
+          }]
+        });
+    
+        const command = new InvokeModelCommand({
+          modelId,
+          body: new TextEncoder().encode(body),
+          contentType: 'application/json',
+          accept: 'application/json',
+        });
+    
+        const response = await this.client.send(command);
+        const responseBody = new TextDecoder().decode(response.body);
+        return JSON.parse(responseBody);
+      } */
     async embedText({ text }) {
         const input = {
             modelId: 'amazon.titan-embed-text-v2:0',
@@ -353,6 +362,6 @@ run this in terminal: npm run start:dev
 then new terminal enter this example:
 curl -X POST http://localhost:3000/bedrock/tts \
   -H "Content-Type: application/json" \
-  -d '{"text": "Hello Arushi, this is your Amazon Polly voice!", "voiceId": "Joanna"}'
+  -d '{"text": "Hello 6% change of sales for you Mr. Iyer, this is your Amazon Polly voice!", "voiceId": "Joanna"}'
 
 */

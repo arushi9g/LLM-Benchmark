@@ -1,0 +1,241 @@
+{
+  "optimalK": 9,
+  "clusters": [
+    [
+      {
+        "text": "Early-bird bonus: Free training ($2K value) for deals closed by EOW."
+      },
+      {
+        "text": "Refer a friend and get $2K in platform credits."
+      },
+      {
+        "text": "Refer a friend and get $1K in platform credits."
+      }
+    ],
+    [
+      {
+        "text": "Automated lead enrichment pulls firmographics and intent data instantly."
+      },
+      {
+        "text": "Customizable dashboards show pipeline health across your entire team."
+      },
+      {
+        "text": "[Company X] grew revenue by 40% using our engagement tools."
+      },
+      {
+        "text": "Used by 3 of the Fortune 10 for enterprise deal tracking."
+      },
+      {
+        "text": "Voted ‘Best Sales Tech’ by [Industry] Magazine in 2024."
+      },
+      {
+        "text": "Teams using Advanced Analytics close 25% more deals."
+      },
+      {
+        "text": "Unlock 50+ premium templates with the Pro plan."
+      },
+      {
+        "text": "Reduce manual data entry by 80% with automation."
+      },
+      {
+        "text": "Deal velocity increases by 30% with our playbooks."
+      },
+      {
+        "text": "Reps using our tool hit quota 22 days faster."
+      }
+    ],
+    [
+      {
+        "text": "Start free—upgrade anytime. Paid plans begin at $29/user/month."
+      },
+      {
+        "text": "Annual billing saves 15% vs. monthly. Lock in today’s rate before prices rise."
+      },
+      {
+        "text": "Price increases by 10% next month. Sign now to grandfather your rate."
+      },
+      {
+        "text": "Budget tight? Let’s split the cost into quarterly payments."
+      },
+      {
+        "text": "Renew early for a 10% discount and priority support."
+      }
+    ],
+    [
+      {
+        "text": "Hi [Name], I noticed your team uses [Competitor]. We help companies like yours reduce costs by 30%—interested in a quick chat?"
+      },
+      {
+        "text": "Hi [Name], I noticed your team uses [Competitor]. We help companies like yours reduce costs by 20%—interested in a quick chat?"
+      },
+      {
+        "text": "Our AI sales assistant automates follow-ups, saving reps 10+ hours/week. Can I demo it for you?"
+      },
+      {
+        "text": "80% of your industry peers use our tool to shorten sales cycles. Want to see why?"
+      },
+      {
+        "text": "Free audit: We’ll analyze your pipeline and identify 3 efficiency gaps. Reply ‘AUDIT’ to claim yours."
+      },
+      {
+        "text": "Cold emails getting ignored? Our tool boosts reply rates by 3x. Let me show you how."
+      },
+      {
+        "text": "Bundle with our CRM and save 20% on both tools."
+      },
+      {
+        "text": "Cut customer acquisition costs by 35% year-over-year."
+      },
+      {
+        "text": "We’ll match any competitor’s price—send us their quote."
+      }
+    ],
+    [
+      {
+        "text": "Nonprofits/startups get 30% off. Just verify your status to qualify."
+      },
+      {
+        "text": "Volume discount: 20% off for teams of 50+."
+      },
+      {
+        "text": "Not ready to commit? Try a 30-day pilot for 50% off."
+      },
+      {
+        "text": "Flexible terms: Pay 50% now, 50% at go-live."
+      },
+      {
+        "text": "Free extended trial if you commit to a demo."
+      }
+    ],
+    [
+      {
+        "text": "95% of hesitant buyers say yes after seeing our ROI calculator."
+      },
+      {
+        "text": "Rated 4.8/5 stars across 1K+ reviews on G2."
+      },
+      {
+        "text": "92% of customers renew—here’s what they say about us."
+      }
+    ],
+    [
+      {
+        "text": "Enterprise tier includes dedicated support and custom SLAs."
+      },
+      {
+        "text": "Only 2 spots left for Q3 onboarding—secure yours now."
+      },
+      {
+        "text": "Upgrade to Enterprise for custom integrations and VIP support."
+      },
+      {
+        "text": "Let’s customize a plan that fits your budget."
+      },
+      {
+        "text": "Your dedicated CSM is on standby for onboarding."
+      },
+      {
+        "text": "Join our quarterly roadmap webinar to influence features."
+      },
+      {
+        "text": "Exclusive invite: VIP customer roundtable with our CEO."
+      }
+    ],
+    [
+      {
+        "text": "Offer expires Friday: 6 months free for annual commitments."
+      },
+      {
+        "text": "Limited inventory: Last chance to add premium support at no extra cost."
+      },
+      {
+        "text": "No long-term contract needed—cancel anytime with 30 days’ notice."
+      },
+      {
+        "text": "Clients average 4.5x ROI within 6 months."
+      },
+      {
+        "text": "Sign by EOD and we’ll waive implementation fees ($5K value)."
+      }
+    ],
+    [
+      {
+        "text": "Only our platform offers real-time deal-risk scoring powered by AI."
+      },
+      {
+        "text": "Native integrations with Salesforce, HubSpot, and Outreach—no coding needed."
+      },
+      {
+        "text": "Unlike competitors, we include unlimited seats and API access in all plans."
+      },
+      {
+        "text": "We handle all data migration—zero downtime for your team."
+      },
+      {
+        "text": "Add AI-powered forecasting for $10/user/month."
+      }
+    ]
+  ],
+  "wcssValues": [
+    {
+      "k": 1,
+      "wcss": 43.21625270979773
+    },
+    {
+      "k": 2,
+      "wcss": 41.25082885172717
+    },
+    {
+      "k": 3,
+      "wcss": 39.97009749938634
+    },
+    {
+      "k": 4,
+      "wcss": 38.38160910352042
+    },
+    {
+      "k": 5,
+      "wcss": 37.48983809021244
+    },
+    {
+      "k": 6,
+      "wcss": 36.199943463827864
+    },
+    {
+      "k": 7,
+      "wcss": 35.13519570954586
+    },
+    {
+      "k": 8,
+      "wcss": 33.73001219059185
+    },
+    {
+      "k": 9,
+      "wcss": 32.40123443885022
+    },
+    {
+      "k": 10,
+      "wcss": 32.16099766061087
+    },
+    {
+      "k": 11,
+      "wcss": 30.564635051892576
+    },
+    {
+      "k": 12,
+      "wcss": 29.49751019677278
+    },
+    {
+      "k": 13,
+      "wcss": 28.762470933114848
+    },
+    {
+      "k": 14,
+      "wcss": 27.46409277261925
+    },
+    {
+      "k": 15,
+      "wcss": 26.60609179122831
+    }
+  ]
+}

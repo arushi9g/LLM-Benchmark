@@ -1,0 +1,322 @@
+[
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: What team is deployed for enterprise clients?\"",
+    "text": "The **Strategic Account Management team** is deployed for enterprise clients."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: What size companies are considered mid-market?\"",
+    "text": "Based on the passage, mid-market companies are defined as companies with **500 to 10,000 employees**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: What model is used for small businesses?\"",
+    "text": "The passage states that for startups and small businesses, the company utilizes a **fully self-service model**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: What does the Strategic Account Management team focus on?\"",
+    "text": "The Strategic Account Management team focuses on **high-touch, long-term relationship building**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: What tools do Inside Sales Representatives rely on?\"",
+    "text": "Based on the passage, Inside Sales Representatives rely on **CRM automation** and **pre-sequenced outreach**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: How many approaches are in the go-to-market strategy?\"",
+    "text": "The passage states there is a \"three-pronged approach.\" Therefore, there are **three** approaches in the go-to-market strategy."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: What framework supports the self-service model?\"",
+    "text": "The framework that supports the self-service model is the **product-led growth framework**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: Where can small businesses purchase the product?\"",
+    "text": "Based on the passage, small businesses can purchase the product **directly from our website**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: What type of model is used for mid-market companies?\"",
+    "text": "The passage states that for mid-market companies, \"our Inside Sales Representatives use a **velocity-based model**\"."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our go-to-market strategy leverages a three-pronged approach targeting distinct customer segments. For enterprise clients with over 10,000 employees, we deploy our Strategic Account Management team, which focuses on high-touch, long-term relationship building. For the mid-market, defined as companies with 500 to 10,000 employees, our Inside Sales Representatives use a velocity-based model, relying heavily on CRM automation and pre-sequenced outreach. Finally, for startups and small businesses, we utilize a fully self-service model, where customers can purchase and onboard directly from our website with support from a product-led growth framework.\"\" Question: What is the minimum employee count for enterprise clients?\"",
+    "text": "The minimum employee count for enterprise clients is **10,000**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: How many phases are in the development lifecycle?\"",
+    "text": "The passage states that the software development lifecycle follows **six** key phases."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: Which phase takes the most time?\"",
+    "text": "The passage states that the **implementation phase** typically consumes 40% of the total timeline. Since the total timeline is 12 weeks, this means the implementation phase takes approximately 40% of 12 weeks, which is 4.8 weeks.\n\nTherefore, the **implementation phase** takes the most time."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: Who approves phase transitions?\"",
+    "text": "Based on the passage, the **quality assurance team** approves phase transitions."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: What is the average project duration?\"",
+    "text": "The average project duration is **12 weeks**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: What percentage of time does implementation take?\"",
+    "text": "The passage explicitly states: \"the implementation phase typically consuming **40%** of the total timeline.\"\n\nTherefore, the answer is **40%**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: What is the first phase of the lifecycle?\"",
+    "text": "The first phase of the lifecycle is **requirements gathering**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: What is the final phase of the lifecycle?\"",
+    "text": "The final phase of the lifecycle is **maintenance**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: What is required before proceeding to the next phase?\"",
+    "text": "**Approval from the quality assurance team** is required before proceeding to the next phase."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: What follows the testing phase?\"",
+    "text": "Based on the passage, **deployment** follows the testing phase."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The software development lifecycle at our company follows six key phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase has specific deliverables and requires approval from the quality assurance team before proceeding to the next stage. The average project takes 12 weeks from start to finish, with the implementation phase typically consuming 40% of the total timeline.\"\" Question: What comes between design and testing?\"",
+    "text": "Based on the passage, **implementation** comes between design and testing."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: What percentage of issues can Tier 1 resolve?\"",
+    "text": "The passage states that Tier 1 \"can resolve **65%** of issues immediately.\""
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: Who handles critical system outages?\"",
+    "text": "Based on the passage, **senior engineers with direct access to the development team** handle critical system outages. This is described as Tier 3 service."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: What is the response time for Tier 2?\"",
+    "text": "The response time for Tier 2 is **15 minutes**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: How many tiers of service are there?\"",
+    "text": "There are **three** tiers of service."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: What does Tier 1 handle?\"",
+    "text": "Tier 1 handles **general inquiries**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: Who has direct access to the development team?\"",
+    "text": "According to the passage, **senior engineers** have direct access to the development team."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: What is the response time for Tier 1?\"",
+    "text": "The response time for Tier 1 is **under 2 minutes**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: What type of technicians are in Tier 2?\"",
+    "text": "Specialized technicians."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: When is Tier 3 activated?\"",
+    "text": "Tier 3 is activated for **critical system outages**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Our customer support operates 24/7 with three tiers of service. Tier 1 handles general inquiries and can resolve 65% of issues immediately. Tier 2 consists of specialized technicians who address more complex technical problems. Tier 3 is reserved for critical system outages and is staffed by senior engineers with direct access to our development team. Our average response time is under 2 minutes for Tier 1, 15 minutes for Tier 2, and immediate for Tier 3 issues.\"\" Question: How quickly does Tier 3 respond?\"",
+    "text": "According to the passage, Tier 3 responds **immediately**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: What is the 401(k) match percentage?\"",
+    "text": "The 401(k) match percentage is **6% of salary**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: How many health insurance options are there?\"",
+    "text": "There are **three** health insurance options."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: What is the professional development stipend amount?\"",
+    "text": "The professional development stipend amount is **$2,500**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: What do new hires receive in their first month?\"",
+    "text": "New hires receive a **$1,000 wellness bonus** in their first month."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: When do employees get free lunch?\"",
+    "text": "Employees get free lunch **on Fridays**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: What is required for unlimited PTO?\"",
+    "text": "Based on the passage, **manager approval** is required for unlimited PTO."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: How often is the professional development stipend provided?\"",
+    "text": "The passage states that employees receive a \"yearly professional development stipend of $2,500\".\n\nTherefore, the professional development stipend is provided **yearly**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: What type of insurance is offered?\"",
+    "text": "The type of insurance offered is **comprehensive health insurance**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: What is matched in the retirement plan?\"",
+    "text": "The retirement plan matches **6% of salary**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"Employee benefits include comprehensive health insurance with three plan options, a 401(k) match up to 6% of salary, unlimited PTO with manager approval, and a yearly professional development stipend of $2,500. New hires receive a $1,000 wellness bonus in their first month, and all employees get free lunch on Fridays.\"\" Question: Who gets the wellness bonus?\"",
+    "text": "Based on the passage, **new hires** get the wellness bonus."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: What is the carbon emission reduction target?\"",
+    "text": "The carbon emission reduction target is **50% by 2030**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: What percentage of energy comes from solar panels?\"",
+    "text": "Based on the passage, **30%** of the company's energy needs are provided by solar panels at their headquarters."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: What percentage of waste is diverted from landfills?\"",
+    "text": "The passage states that the company has implemented a recycling program that diverts **85%** of waste from landfills."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: Where are solar panels installed?\"",
+    "text": "Solar panels are installed at the company's **headquarters**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: What is the renewable energy sourcing goal?\"",
+    "text": "The renewable energy sourcing goal is to **source 100% renewable energy for operations.**"
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: How many key areas does the initiative focus on?\"",
+    "text": "The initiative focuses on **three** key areas."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: What waste goal applies to all facilities?\"",
+    "text": "The waste goal that applies to all facilities is **achieving zero waste to landfill across all facilities**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: What program diverts waste from landfills?\"",
+    "text": "The program that diverts waste from landfills is the **company-wide recycling program**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: By what year is the emission reduction target?\"",
+    "text": "The emission reduction target is by the year **2030**."
+  },
+  {
+    "prompt": "\"Given the passage: \"\"The company's sustainability initiative focuses on three key areas: reducing carbon emissions by 50% by 2030, achieving zero waste to landfill across all facilities, and sourcing 100% renewable energy for operations. We've already installed solar panels at our headquarters, which now provide 30% of our energy needs, and implemented a company-wide recycling program that diverts 85% of waste from landfills.\"\" Question: What provides part of the company's energy needs?\"",
+    "text": "Based on the passage, **solar panels** provide part of the company's energy needs."
+  },
+  {
+    "prompt": "Given the passage: \"Our API platform offers three pricing tiers: Free (10,000 monthly requests), Pro ($99/month for 100,000 requests), and Enterprise (custom volume with SLAs). All plans include API documentation, SDKs in 5 languages, and 24/7 support. Enterprise customers get dedicated technical account managers and guaranteed 99.99% uptime.\" Question: What do Enterprise customers get beyond the Pro plan?",
+    "text": "Enterprise customers get the following beyond the Pro plan:\n\n*   **Custom volume** of requests\n*   **Service Level Agreements (SLAs)**\n*   **Dedicated technical account managers**\n*   **Guaranteed 99.99% uptime**"
+  },
+  {
+    "prompt": "Given the passage: \"Our API platform offers three pricing tiers: Free (10,000 monthly requests), Pro ($99/month for 100,000 requests), and Enterprise (custom volume with SLAs). All plans include API documentation, SDKs in 5 languages, and 24/7 support. Enterprise customers get dedicated technical account managers and guaranteed 99.99% uptime.\" Question: How many languages are the SDKs available in?",
+    "text": "The SDKs are available in **5 languages**."
+  },
+  {
+    "prompt": "Given the passage: \"Our API platform offers three pricing tiers: Free (10,000 monthly requests), Pro ($99/month for 100,000 requests), and Enterprise (custom volume with SLAs). All plans include API documentation, SDKs in 5 languages, and 24/7 support. Enterprise customers get dedicated technical account managers and guaranteed 99.99% uptime.\" Question: What is the request limit for the Free tier?",
+    "text": "The request limit for the Free tier is **10,000 monthly requests**."
+  },
+  {
+    "prompt": "Given the passage: \"Our developer tools integrate with GitHub, GitLab, and Bitbucket, providing real-time code analysis, automated security scanning, and CI/CD pipeline optimization. The setup takes under 5 minutes with our CLI tool, and we offer a free trial with no credit card required.\" Question: Which version control systems does the tool integrate with?",
+    "text": "The tool integrates with **GitHub, GitLab, and Bitbucket**."
+  },
+  {
+    "prompt": "Given the passage: \"Our developer tools integrate with GitHub, GitLab, and Bitbucket, providing real-time code analysis, automated security scanning, and CI/CD pipeline optimization. The setup takes under 5 minutes with our CLI tool, and we offer a free trial with no credit card required.\" Question: What feature helps optimize CI/CD pipelines?",
+    "text": "The feature that helps optimize CI/CD pipelines is **CI/CD pipeline optimization**."
+  },
+  {
+    "prompt": "Given the passage: \"Our developer tools integrate with GitHub, GitLab, and Bitbucket, providing real-time code analysis, automated security scanning, and CI/CD pipeline optimization. The setup takes under 5 minutes with our CLI tool, and we offer a free trial with no credit card required.\" Question: How long does setup take?",
+    "text": "Setup takes **under 5 minutes**."
+  },
+  {
+    "prompt": "Given the passage: \"Our SaaS platform has a 92% customer retention rate, with an average contract length of 2.3 years. Enterprise deals (over $50K ARR) include onboarding specialists, quarterly business reviews, and custom integrations. Our sales cycle for mid-market is 45 days, while enterprise deals take 90 days on average.\" Question: What is the average sales cycle for mid-market deals?",
+    "text": "The average sales cycle for mid-market deals is **45 days**."
+  },
+  {
+    "prompt": "Given the passage: \"Our SaaS platform has a 92% customer retention rate, with an average contract length of 2.3 years. Enterprise deals (over $50K ARR) include onboarding specialists, quarterly business reviews, and custom integrations. Our sales cycle for mid-market is 45 days, while enterprise deals take 90 days on average.\" Question: What is included in Enterprise deals?",
+    "text": "Enterprise deals include:\n\n*   Onboarding specialists\n*   Quarterly business reviews\n*   Custom integrations"
+  },
+  {
+    "prompt": "Given the passage: \"Our SaaS platform has a 92% customer retention rate, with an average contract length of 2.3 years. Enterprise deals (over $50K ARR) include onboarding specialists, quarterly business reviews, and custom integrations. Our sales cycle for mid-market is 45 days, while enterprise deals take 90 days on average.\" Question: What is the customer retention rate?",
+    "text": "The customer retention rate is **92%**."
+  },
+  {
+    "prompt": "Given the passage: \"Our pricing is usage-based, with customers paying $0.10 per GB of data processed. Volume discounts kick in at 10TB/month (15% off) and 50TB/month (30% off). All plans include SOC 2 compliance and data encryption at rest.\" Question: At what usage level do volume discounts start?",
+    "text": "Volume discounts start at **10TB/month**."
+  },
+  {
+    "prompt": "Given the passage: \"Our pricing is usage-based, with customers paying $0.10 per GB of data processed. Volume discounts kick in at 10TB/month (15% off) and 50TB/month (30% off). All plans include SOC 2 compliance and data encryption at rest.\" Question: What compliance standard is included?",
+    "text": "The compliance standard included is **SOC 2**."
+  },
+  {
+    "prompt": "Given the passage: \"Our pricing is usage-based, with customers paying $0.10 per GB of data processed. Volume discounts kick in at 10TB/month (15% off) and 50TB/month (30% off). All plans include SOC 2 compliance and data encryption at rest.\" Question: What is the base cost per GB?",
+    "text": "The base cost per GB is **$0.10**."
+  },
+  {
+    "prompt": "Given the passage: \"Our partner program offers three tiers: Referral (10% commission), Reseller (25% margin), and Strategic (custom pricing + co-marketing). Partners must complete certification training before selling, and deals over $100K qualify for additional incentives.\" Question: What is the commission for Referral partners?",
+    "text": "The commission for Referral partners is **10%**."
+  },
+  {
+    "prompt": "Given the passage: \"Our partner program offers three tiers: Referral (10% commission), Reseller (25% margin), and Strategic (custom pricing + co-marketing). Partners must complete certification training before selling, and deals over $100K qualify for additional incentives.\" Question: What do Strategic partners receive?",
+    "text": "Based on the passage, Strategic partners receive:\n\n*   **Custom pricing**\n*   **Co-marketing**"
+  },
+  {
+    "prompt": "Given the passage: \"Our partner program offers three tiers: Referral (10% commission), Reseller (25% margin), and Strategic (custom pricing + co-marketing). Partners must complete certification training before selling, and deals over $100K qualify for additional incentives.\" Question: What is required before partners can sell?",
+    "text": "Based on the passage, partners must complete **certification training** before selling."
+  },
+  {
+    "prompt": "Given the passage: \"Our freemium model allows users to access basic features forever, while paid plans start at $29/user/month for advanced analytics and team collaboration. 30% of free users convert to paid within 90 days, with the highest conversion coming from teams of 5+ users.\" Question: What is the entry-level paid plan price?",
+    "text": "The entry-level paid plan price is **$29/user/month**."
+  },
+  {
+    "prompt": "Given the passage: \"Our freemium model allows users to access basic features forever, while paid plans start at $29/user/month for advanced analytics and team collaboration. 30% of free users convert to paid within 90 days, with the highest conversion coming from teams of 5+ users.\" Question: Which user segment converts best?",
+    "text": "Based on the passage, the user segment that converts best is **teams of 5+ users**."
+  },
+  {
+    "prompt": "Given the passage: \"Our freemium model allows users to access basic features forever, while paid plans start at $29/user/month for advanced analytics and team collaboration. 30% of free users convert to paid within 90 days, with the highest conversion coming from teams of 5+ users.\" Question: What is the free-to-paid conversion rate?",
+    "text": "The free-to-paid conversion rate is **30%**."
+  },
+  {
+    "prompt": "Given the passage: \"Unlike competitors, we offer native integrations with Slack, Microsoft Teams, and Zoom without requiring additional plugins. Our AI-powered analytics also provide real-time sentiment analysis, which 80% of customers cite as their primary reason for choosing us.\" Question: What do 80% of customers value most?",
+    "text": "80% of customers value **real-time sentiment analysis** the most."
+  },
+  {
+    "prompt": "Given the passage: \"Unlike competitors, we offer native integrations with Slack, Microsoft Teams, and Zoom without requiring additional plugins. Our AI-powered analytics also provide real-time sentiment analysis, which 80% of customers cite as their primary reason for choosing us.\" Question: Which integrations are native?",
+    "text": "Based on the passage, the native integrations are:\n\n*   **Slack**\n*   **Microsoft Teams**\n*   **Zoom**"
+  },
+  {
+    "prompt": "Given the passage: \"Our renewal process starts 60 days before contract expiration, with dedicated Customer Success Managers handling negotiations. Upsell opportunities are identified via usage data—customers exceeding 80% capacity are offered tier upgrades with a 10% discount if renewed early.\" Question: When does the renewal process begin?",
+    "text": "The renewal process begins **60 days before contract expiration**."
+  },
+  {
+    "prompt": "Given the passage: \"Our renewal process starts 60 days before contract expiration, with dedicated Customer Success Managers handling negotiations. Upsell opportunities are identified via usage data—customers exceeding 80% capacity are offered tier upgrades with a 10% discount if renewed early.\" Question: What triggers upsell offers?",
+    "text": "Upsell offers are triggered by **customers exceeding 80% capacity**."
+  },
+  {
+    "prompt": "Given the passage: \"Our renewal process starts 60 days before contract expiration, with dedicated Customer Success Managers handling negotiations. Upsell opportunities are identified via usage data—customers exceeding 80% capacity are offered tier upgrades with a 10% discount if renewed early.\" Question: What discount is offered for early renewals?",
+    "text": "The passage states that a **10% discount** is offered for early renewals."
+  },
+  {
+    "prompt": "Given the passage: \"Our support SLA guarantees a 1-hour response time for critical issues (P1), 4 hours for high-priority (P2), and 24 hours for standard requests. Enterprise customers can escalate tickets directly to engineering teams via a dedicated hotline.\" Question: What is the response time for P2 issues?",
+    "text": "The response time for P2 issues is **4 hours**."
+  },
+  {
+    "prompt": "Given the passage: \"Our support SLA guarantees a 1-hour response time for critical issues (P1), 4 hours for high-priority (P2), and 24 hours for standard requests. Enterprise customers can escalate tickets directly to engineering teams via a dedicated hotline.\" Question: How can Enterprise customers escalate issues?",
+    "text": "Enterprise customers can escalate issues **directly to engineering teams via a dedicated hotline.**"
+  },
+  {
+    "prompt": "Given the passage: \"Discounts are approved at three levels: Sales Managers (up to 15%), Directors (up to 25%), and VP (custom). Multi-year deals get an additional 5% off, and non-profits qualify for a flat 20% discount.\" Question: Who can approve a 25% discount?",
+    "text": "Based on the passage:\n\n**Directors** can approve a 25% discount."
+  },
+  {
+    "prompt": "Given the passage: \"Discounts are approved at three levels: Sales Managers (up to 15%), Directors (up to 25%), and VP (custom). Multi-year deals get an additional 5% off, and non-profits qualify for a flat 20% discount.\" Question: What discount do non-profits receive?",
+    "text": "Non-profits receive a flat **20%** discount."
+  },
+  {
+    "prompt": "Given the passage: \"New sales hires complete a 2-week bootcamp covering product training, competitive positioning, and MEDDIC certification. Deal coaches are assigned after closing their first $50K deal.\" Question: How long is the sales bootcamp?",
+    "text": "The sales bootcamp is **2 weeks** long."
+  },
+  {
+    "prompt": "Given the passage: \"New sales hires complete a 2-week bootcamp covering product training, competitive positioning, and MEDDIC certification. Deal coaches are assigned after closing their first $50K deal.\" Question: When are deal coaches assigned?",
+    "text": "Deal coaches are assigned **after closing their first $50K deal**."
+  },
+  {
+    "prompt": "Given the passage: \"Onboarding takes 14 days on average, with a 95% success rate. Customers who complete all training modules within 30 days have a 40% higher retention rate at 12 months.\" Question: What improves 12-month retention?",
+    "text": "Based on the passage, **completing all training modules within 30 days** improves 12-month retention."
+  }
+]

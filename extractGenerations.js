@@ -1,4 +1,4 @@
-/*const fs = require('fs');
+/* const fs = require('fs');
 
 // Read and parse the JSON file
 const data = JSON.parse(fs.readFileSync('answers.json', 'utf-8'));
@@ -27,27 +27,20 @@ fs.writeFileSync('generations.txt', generations.join('\n'));
 console.log(`Successfully wrote ${generations.length} clean generations to generations.txt`);
 */
 
-
-/*
 const fs = require('fs');
+const data = JSON.parse(fs.readFileSync('textanswers.json', 'utf-8'));
 
-// Read and parse the JSON file
-const data = JSON.parse(fs.readFileSync('answers.json', 'utf-8'));
-
-// Extract all text content from responses
 let textLines = data.map(item => {
     try {
-        // Get the text content from the nested structure
         return item.response.output.message.content[0].text
-            .replace(/\n/g, ' ')      // Replace newlines with spaces
-            .trim();                   // Trim whitespace
+            .replace(/\n/g, ' ')
+            .trim();
     } catch (error) {
         console.error('Error processing item:', error);
         return '';
     }
 });
 
-// Ensure we have exactly 50 lines (pad with empty strings if needed)
 if (textLines.length > 50) {
     textLines = textLines.slice(0, 50);
 } else if (textLines.length < 50) {
@@ -55,12 +48,18 @@ if (textLines.length > 50) {
     textLines = textLines.concat(Array(needed).fill(''));
 }
 
-// Write to the output file
+
 fs.writeFileSync('text_output.txt', textLines.join('\n'));
-
 console.log(`Successfully wrote ${textLines.length} text lines to text_output.txt`);
-*/
 
+
+
+
+
+
+
+
+/*
 const fs = require('fs');
 const data = JSON.parse(fs.readFileSync('answers.json', 'utf-8'));
 
@@ -94,3 +93,4 @@ if (contentLines.length > 50) {
 fs.writeFileSync('content_output.txt', contentLines.join('\n'));
 
 console.log(`Successfully wrote ${contentLines.length} content lines to content_output.txt`);
+*/

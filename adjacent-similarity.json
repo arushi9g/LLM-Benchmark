@@ -1,0 +1,310 @@
+{
+  "comparisons": [
+    {
+      "text1": "Hi [Name], I noticed your team uses [Competitor]. ",
+      "text2": "Hi [Name], I noticed your team uses [Competitor]. ",
+      "cosineSimilarity": 0.9899,
+      "interpretation": "Nearly identical"
+    },
+    {
+      "text1": "Hi [Name], I noticed your team uses [Competitor]. ",
+      "text2": "Our AI sales assistant automates follow-ups, savin",
+      "cosineSimilarity": 0.4549,
+      "interpretation": "Somewhat related"
+    },
+    {
+      "text1": "Our AI sales assistant automates follow-ups, savin",
+      "text2": "80% of your industry peers use our tool to shorten",
+      "cosineSimilarity": 0.4795,
+      "interpretation": "Somewhat related"
+    },
+    {
+      "text1": "80% of your industry peers use our tool to shorten",
+      "text2": "Free audit: We’ll analyze your pipeline and identi",
+      "cosineSimilarity": 0.3882,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Free audit: We’ll analyze your pipeline and identi",
+      "text2": "Cold emails getting ignored? Our tool boosts reply",
+      "cosineSimilarity": 0.375,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Cold emails getting ignored? Our tool boosts reply",
+      "text2": "Only our platform offers real-time deal-risk scori",
+      "cosineSimilarity": 0.2549,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Only our platform offers real-time deal-risk scori",
+      "text2": "Native integrations with Salesforce, HubSpot, and ",
+      "cosineSimilarity": 0.2704,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Native integrations with Salesforce, HubSpot, and ",
+      "text2": "Unlike competitors, we include unlimited seats and",
+      "cosineSimilarity": 0.3294,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Unlike competitors, we include unlimited seats and",
+      "text2": "Automated lead enrichment pulls firmographics and ",
+      "cosineSimilarity": 0.2463,
+      "interpretation": "Unrelated"
+    },
+    {
+      "text1": "Automated lead enrichment pulls firmographics and ",
+      "text2": "Customizable dashboards show pipeline health acros",
+      "cosineSimilarity": 0.2909,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Customizable dashboards show pipeline health acros",
+      "text2": "Start free—upgrade anytime. Paid plans begin at $2",
+      "cosineSimilarity": 0.162,
+      "interpretation": "Unrelated"
+    },
+    {
+      "text1": "Start free—upgrade anytime. Paid plans begin at $2",
+      "text2": "Annual billing saves 15% vs. monthly. Lock in toda",
+      "cosineSimilarity": 0.3642,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Annual billing saves 15% vs. monthly. Lock in toda",
+      "text2": "Nonprofits/startups get 30% off. Just verify your ",
+      "cosineSimilarity": 0.3367,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Nonprofits/startups get 30% off. Just verify your ",
+      "text2": "Enterprise tier includes dedicated support and cus",
+      "cosineSimilarity": 0.1692,
+      "interpretation": "Unrelated"
+    },
+    {
+      "text1": "Enterprise tier includes dedicated support and cus",
+      "text2": "Volume discount: 20% off for teams of 50+.",
+      "cosineSimilarity": 0.2099,
+      "interpretation": "Unrelated"
+    },
+    {
+      "text1": "Volume discount: 20% off for teams of 50+.",
+      "text2": "Offer expires Friday: 6 months free for annual com",
+      "cosineSimilarity": 0.4243,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Offer expires Friday: 6 months free for annual com",
+      "text2": "Only 2 spots left for Q3 onboarding—secure yours n",
+      "cosineSimilarity": 0.3701,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Only 2 spots left for Q3 onboarding—secure yours n",
+      "text2": "Price increases by 10% next month. Sign now to gra",
+      "cosineSimilarity": 0.3726,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Price increases by 10% next month. Sign now to gra",
+      "text2": "Early-bird bonus: Free training ($2K value) for de",
+      "cosineSimilarity": 0.3216,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Early-bird bonus: Free training ($2K value) for de",
+      "text2": "Limited inventory: Last chance to add premium supp",
+      "cosineSimilarity": 0.3869,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Limited inventory: Last chance to add premium supp",
+      "text2": "Budget tight? Let’s split the cost into quarterly ",
+      "cosineSimilarity": 0.3236,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Budget tight? Let’s split the cost into quarterly ",
+      "text2": "No long-term contract needed—cancel anytime with 3",
+      "cosineSimilarity": 0.3022,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "No long-term contract needed—cancel anytime with 3",
+      "text2": "We handle all data migration—zero downtime for you",
+      "cosineSimilarity": 0.3016,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "We handle all data migration—zero downtime for you",
+      "text2": "Not ready to commit? Try a 30-day pilot for 50% of",
+      "cosineSimilarity": 0.2037,
+      "interpretation": "Unrelated"
+    },
+    {
+      "text1": "Not ready to commit? Try a 30-day pilot for 50% of",
+      "text2": "95% of hesitant buyers say yes after seeing our RO",
+      "cosineSimilarity": 0.3925,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "95% of hesitant buyers say yes after seeing our RO",
+      "text2": "[Company X] grew revenue by 40% using our engageme",
+      "cosineSimilarity": 0.3677,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "[Company X] grew revenue by 40% using our engageme",
+      "text2": "Rated 4.8/5 stars across 1K+ reviews on G2.",
+      "cosineSimilarity": 0.2683,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Rated 4.8/5 stars across 1K+ reviews on G2.",
+      "text2": "92% of customers renew—here’s what they say about ",
+      "cosineSimilarity": 0.3998,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "92% of customers renew—here’s what they say about ",
+      "text2": "Used by 3 of the Fortune 10 for enterprise deal tr",
+      "cosineSimilarity": 0.2291,
+      "interpretation": "Unrelated"
+    },
+    {
+      "text1": "Used by 3 of the Fortune 10 for enterprise deal tr",
+      "text2": "Voted ‘Best Sales Tech’ by [Industry] Magazine in ",
+      "cosineSimilarity": 0.3966,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Voted ‘Best Sales Tech’ by [Industry] Magazine in ",
+      "text2": "Add AI-powered forecasting for $10/user/month.",
+      "cosineSimilarity": 0.3145,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Add AI-powered forecasting for $10/user/month.",
+      "text2": "Upgrade to Enterprise for custom integrations and ",
+      "cosineSimilarity": 0.3275,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Upgrade to Enterprise for custom integrations and ",
+      "text2": "Bundle with our CRM and save 20% on both tools.",
+      "cosineSimilarity": 0.4012,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Bundle with our CRM and save 20% on both tools.",
+      "text2": "Teams using Advanced Analytics close 25% more deal",
+      "cosineSimilarity": 0.4292,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Teams using Advanced Analytics close 25% more deal",
+      "text2": "Unlock 50+ premium templates with the Pro plan.",
+      "cosineSimilarity": 0.3082,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Unlock 50+ premium templates with the Pro plan.",
+      "text2": "Clients average 4.5x ROI within 6 months.",
+      "cosineSimilarity": 0.2535,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Clients average 4.5x ROI within 6 months.",
+      "text2": "Reduce manual data entry by 80% with automation.",
+      "cosineSimilarity": 0.292,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Reduce manual data entry by 80% with automation.",
+      "text2": "Deal velocity increases by 30% with our playbooks.",
+      "cosineSimilarity": 0.325,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Deal velocity increases by 30% with our playbooks.",
+      "text2": "Cut customer acquisition costs by 35% year-over-ye",
+      "cosineSimilarity": 0.3911,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Cut customer acquisition costs by 35% year-over-ye",
+      "text2": "Reps using our tool hit quota 22 days faster.",
+      "cosineSimilarity": 0.3464,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Reps using our tool hit quota 22 days faster.",
+      "text2": "We’ll match any competitor’s price—send us their q",
+      "cosineSimilarity": 0.2608,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "We’ll match any competitor’s price—send us their q",
+      "text2": "Sign by EOD and we’ll waive implementation fees ($",
+      "cosineSimilarity": 0.4012,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Sign by EOD and we’ll waive implementation fees ($",
+      "text2": "Flexible terms: Pay 50% now, 50% at go-live.",
+      "cosineSimilarity": 0.4401,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Flexible terms: Pay 50% now, 50% at go-live.",
+      "text2": "Let’s customize a plan that fits your budget.",
+      "cosineSimilarity": 0.3105,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Let’s customize a plan that fits your budget.",
+      "text2": "Free extended trial if you commit to a demo.",
+      "cosineSimilarity": 0.271,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Free extended trial if you commit to a demo.",
+      "text2": "Your dedicated CSM is on standby for onboarding.",
+      "cosineSimilarity": 0.2289,
+      "interpretation": "Unrelated"
+    },
+    {
+      "text1": "Your dedicated CSM is on standby for onboarding.",
+      "text2": "Join our quarterly roadmap webinar to influence fe",
+      "cosineSimilarity": 0.1014,
+      "interpretation": "Unrelated"
+    },
+    {
+      "text1": "Join our quarterly roadmap webinar to influence fe",
+      "text2": "Renew early for a 10% discount and priority suppor",
+      "cosineSimilarity": 0.2668,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Renew early for a 10% discount and priority suppor",
+      "text2": "Refer a friend and get $2K in platform credits.",
+      "cosineSimilarity": 0.3414,
+      "interpretation": "Weakly related"
+    },
+    {
+      "text1": "Refer a friend and get $2K in platform credits.",
+      "text2": "Refer a friend and get $1K in platform credits.",
+      "cosineSimilarity": 0.9534,
+      "interpretation": "Nearly identical"
+    },
+    {
+      "text1": "Refer a friend and get $1K in platform credits.",
+      "text2": "Exclusive invite: VIP customer roundtable with our",
+      "cosineSimilarity": 0.3296,
+      "interpretation": "Weakly related"
+    }
+  ]
+}
