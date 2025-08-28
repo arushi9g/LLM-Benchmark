@@ -1,91 +1,9 @@
-/*const { GoogleGenAI } = require("@google/genai");
-const fs = require("fs");
-
-// Initialize Gemini - make sure to set your API key
-const genAI = new GoogleGenAI({
-    apiKey: process.env.GOOGLE_API_KEY || "" //Put key here
-});
-
-async function transcribeBase64Audio() {
-    try {
-        // 1. Load your TTS outputs
-        const rawData = fs.readFileSync("tts_outputs.json", "utf-8");
-        const ttsOutputs = JSON.parse(rawData);
-
-        // 2. Prepare results array
-        const transcriptions = [];
-
-        // 3. Process each entry
-        for (const [index, entry] of ttsOutputs.entries()) {
-            if (!entry.base64Audio) continue;
-
-            console.log(`Processing entry ${index + 1}/${ttsOutputs.length}`);
-
-            try {
-                // 4. Create the request payload
-                const contents = [
-                    {
-                        text: "Transcribe this audio exactly as spoken. Include filler words. Return only the raw text."
-                    },
-                    {
-                        inlineData: {
-                            mimeType: "audio/mp3", // Change if your audio is different
-                            data: entry.base64Audio
-                        }
-                    }
-                ];
-
-                // 5. Send to Gemini
-                const result = await genAI.models.generateContent({
-                    model: "gemini-1.5-flash",
-                    contents: contents
-                });
-
-                // 6. Store results
-                transcriptions.push({
-                    originalPrompt: entry.prompt,
-                    transcription: result.text,
-                    timestamp: entry.timestamp || new Date().toISOString()
-                });
-
-                console.log(`Transcription: ${result.text.substring(0, 50)}...`);
-
-            } catch (error) {
-                console.error(`Error on entry ${index + 1}:`, error.message);
-                transcriptions.push({
-                    originalPrompt: entry.prompt,
-                    error: error.message
-                });
-            }
-
-            // Rate limiting delay
-            await new Promise(resolve => setTimeout(resolve, 500));
-        }
-
-        // 7. Save results
-        fs.writeFileSync(
-            "transcriptions.json",
-            JSON.stringify(transcriptions, null, 2)
-        );
-
-        console.log("Transcription complete! Saved to transcriptions.json");
-
-    } catch (error) {
-        console.error("Fatal error:", error);
-    }
-}
-
-transcribeBase64Audio();
-
-*/
-
-
 const { GoogleGenAI } = require("@google/genai");
 const fs = require("fs");
 const path = require("path");
 
 const genAI = new GoogleGenAI({
-    apiKey: process.env.GOOGLE_API_KEY || " " //Set key here
+    apiKey: process.env.GOOGLE_API_KEY || " "
 });
 
 async function transcribeAudioFiles() {
@@ -129,7 +47,7 @@ async function transcribeAudioFiles() {
                 ];
 
                 const result = await genAI.models.generateContent({
-                    model: "gemini-1.5-flash",
+                    model: "gemini-2.5-flash",
                     contents: contents
                 });
 
@@ -158,7 +76,7 @@ async function transcribeAudioFiles() {
             JSON.stringify(transcriptions, null, 2)
         );
 
-        console.log("Transcription complete! Saved to transcriptions.json");
+        console.log("Transcription complete. Saved to transcriptions.json");
 
     } catch (error) {
         console.error("Fatal error:", error);
@@ -166,6 +84,78 @@ async function transcribeAudioFiles() {
 }
 
 transcribeAudioFiles();
+
+/*const { GoogleGenAI } = require("@google/genai");
+const fs = require("fs");
+
+
+const genAI = new GoogleGenAI({
+    apiKey: process.env.GOOGLE_API_KEY || "" //Put key here
+});
+
+async function transcribeBase64Audio() {
+    try {
+       
+        const rawData = fs.readFileSync("tts_outputs.json", "utf-8");
+        const ttsOutputs = JSON.parse(rawData);
+        const transcriptions = [];
+
+        for (const [index, entry] of ttsOutputs.entries()) {
+            if (!entry.base64Audio) continue;
+
+            console.log(`Processing entry ${index + 1}/${ttsOutputs.length}`);
+
+            try {
+
+                const contents = [
+                    {
+                        text: "Transcribe this audio exactly as spoken. Include filler words. Return only the raw text."
+                    },
+                    {
+                        inlineData: {
+                            mimeType: "audio/mp3",
+                            data: entry.base64Audio
+                        }
+                    }
+                ];
+
+                const result = await genAI.models.generateContent({
+                    model: "gemini-2.5-flash",
+                    contents: contents
+                });
+
+                transcriptions.push({
+                    originalPrompt: entry.prompt,
+                    transcription: result.text,
+                    timestamp: entry.timestamp || new Date().toISOString()
+                });
+
+            } catch (error) {
+                console.error(`Error on entry ${index + 1}:`, error.message);
+                transcriptions.push({
+                    originalPrompt: entry.prompt,
+                    error: error.message
+                });
+            }
+
+            await new Promise(resolve => setTimeout(resolve, 500));
+        }
+
+        fs.writeFileSync(
+            "transcriptions.json",
+            JSON.stringify(transcriptions, null, 2)
+        );
+
+        console.log("Transcription complete. Saved to transcriptions.json");
+
+    } catch (error) {
+        console.error("Fatal error:", error);
+    }
+}
+
+transcribeBase64Audio();
+
+*/
 
 /*
 
@@ -219,7 +209,7 @@ async function transcribeWavFiles() {
                 ];
 
                 const result = await genAI.models.generateContent({
-                    model: "gemini-1.5-flash",
+                    model: "gemini-2.5-flash",
                     contents: contents
                 });
 
@@ -248,7 +238,7 @@ async function transcribeWavFiles() {
             JSON.stringify(transcriptions, null, 2)
         );
 
-        console.log("Transcription complete! Saved to transcriptions.json");
+        console.log("Transcription complete. Saved to transcriptions.json");
 
     } catch (error) {
         console.error("Fatal error:", error);

@@ -1,32 +1,3 @@
-/* const fs = require('fs');
-
-// Read and parse the JSON file
-const data = JSON.parse(fs.readFileSync('answers.json', 'utf-8'));
-
-// Extract and clean all generation texts
-let generations = data.map(item => {
-    if (!item.response || !item.response.generation) return '';
-
-    // Clean the generation text:
-    return item.response.generation
-        .replace(/\n/g, ' ') // Remove prefixes and quotes
-        .trim(); // Trim whitespace
-});
-// Ensure we have exactly 50 lines (pad with empty strings if needed)
-
-if (generations.length > 50) {
-    generations = generations.slice(0, 50);
-} else if (generations.length < 50) {
-    const needed = 50 - generations.length;
-    generations = generations.concat(Array(needed).fill(''));
-}
-
-// Write to the output file
-fs.writeFileSync('generations.txt', generations.join('\n'));
-
-console.log(`Successfully wrote ${generations.length} clean generations to generations.txt`);
-*/
-
 const fs = require('fs');
 const data = JSON.parse(fs.readFileSync('textanswers.json', 'utf-8'));
 
@@ -53,10 +24,29 @@ fs.writeFileSync('text_output.txt', textLines.join('\n'));
 console.log(`Successfully wrote ${textLines.length} text lines to text_output.txt`);
 
 
+/* const fs = require('fs');
 
+const data = JSON.parse(fs.readFileSync('answers.json', 'utf-8'));
 
+let generations = data.map(item => {
+    if (!item.response || !item.response.generation) return '';
 
+    return item.response.generation
+        .replace(/\n/g, ' ')
+        .trim();
+});
 
+if (generations.length > 50) {
+    generations = generations.slice(0, 50);
+} else if (generations.length < 50) {
+    const needed = 50 - generations.length;
+    generations = generations.concat(Array(needed).fill(''));
+}
+
+fs.writeFileSync('generations.txt', generations.join('\n'));
+
+console.log(`Successfully wrote ${generations.length} clean generations to generations.txt`);
+*/
 
 
 /*

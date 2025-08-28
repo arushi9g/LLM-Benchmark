@@ -6,16 +6,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const promises_1 = __importDefault(require("fs/promises"));
 const node_fetch_1 = __importDefault(require("node-fetch"));
 const dotenv_1 = __importDefault(require("dotenv"));
-// Configuration
+
 dotenv_1.default.config();
 const promptsFile = './prompts.txt';
 const outputFile = './tts_matthew_outputs.json';
 const endpoint = 'http://localhost:3000/bedrock/tts';
 const DEFAULT_VOICE = 'Joann';
-const DELAY_BETWEEN_REQUESTS = 1000; // 1 second between requests
-const BATCH_SIZE = 5; // Number of requests before writing intermediate results
-const BACKUP_FILE = './tts_outputs_backup.json'; // For crash recovery
-// Utility functions
+const DELAY_BETWEEN_REQUESTS = 1000;
+const BATCH_SIZE = 5;
+
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -24,7 +23,7 @@ function truncate(text, maxLength) {
 }
 async function processPrompts() {
     try {
-        // Read prompts
+
         const promptsText = await promises_1.default.readFile(promptsFile, 'utf-8');
         const prompts = promptsText.split('\n')
             .map(p => p.trim())
@@ -32,22 +31,21 @@ async function processPrompts() {
         if (prompts.length === 0) {
             throw new Error('No valid prompts found in prompts.txt');
         }
-        // Load existing results if resuming
+
         let results = [];
         try {
             const existingData = await promises_1.default.readFile(outputFile, 'utf-8');
             results = JSON.parse(existingData);
-            console.log(`Resuming from existing file with ${results.length} processed prompts`);
+            console.log(`Resuming from existing file`);
         }
         catch (_a) {
             console.log('Starting new processing session');
         }
-        // Process remaining prompts
+
         for (let i = 0; i < prompts.length; i++) {
             const prompt = prompts[i];
             const logPrefix = `[${i + 1}/${prompts.length}]`;
             try {
-                console.log(`${logPrefix} Processing: "${truncate(prompt, 50)}"`);
                 const response = await (0, node_fetch_1.default)(endpoint, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -78,18 +76,16 @@ async function processPrompts() {
                     timestamp: new Date().toISOString()
                 });
             }
-            // Save progress periodically
+
             if ((i + 1) % BATCH_SIZE === 0 || i === prompts.length - 1) {
                 await promises_1.default.writeFile(outputFile, JSON.stringify(results, null, 2));
                 await promises_1.default.writeFile(BACKUP_FILE, JSON.stringify(results, null, 2));
-                console.log(`${logPrefix} Saved progress (${i + 1}/${prompts.length} processed)`);
             }
-            // Rate limiting (except after last request)
+
             if (i < prompts.length - 1) {
                 await sleep(DELAY_BETWEEN_REQUESTS);
             }
         }
-        console.log(`\nProcessing complete. Successfully processed ${results.filter(r => r.base64Audio).length}/${prompts.length} prompts`);
         console.log(`Results saved to ${outputFile}`);
     }
     catch (err) {
@@ -97,5 +93,4 @@ async function processPrompts() {
         process.exit(1);
     }
 }
-// Run the program
 processPrompts();

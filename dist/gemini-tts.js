@@ -1,22 +1,22 @@
 "use strict";
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function (o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     var desc = Object.getOwnPropertyDescriptor(m, k);
     if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-      desc = { enumerable: true, get: function() { return m[k]; } };
+        desc = { enumerable: true, get: function () { return m[k]; } };
     }
     Object.defineProperty(o, k2, desc);
-}) : (function(o, m, k, k2) {
+}) : (function (o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
 }));
-var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function (o, v) {
     Object.defineProperty(o, "default", { enumerable: true, value: v });
-}) : function(o, v) {
+}) : function (o, v) {
     o["default"] = v;
 });
 var __importStar = (this && this.__importStar) || (function () {
-    var ownKeys = function(o) {
+    var ownKeys = function (o) {
         ownKeys = Object.getOwnPropertyNames || function (o) {
             var ar = [];
             for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;
@@ -35,11 +35,7 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs_1 = require("fs");
 const path = __importStar(require("path"));
-/**
- * Converts a base64 string to an ArrayBuffer.
- * @param base64 The base64 encoded string.
- * @returns An ArrayBuffer.
- */
+
 function base64ToArrayBuffer(base64) {
     const binaryString = atob(base64);
     const len = binaryString.length;
@@ -49,16 +45,9 @@ function base64ToArrayBuffer(base64) {
     }
     return bytes.buffer;
 }
-/**
- * Converts raw PCM 16-bit audio data into a WAV file format.
- * The Gemini API returns L16 PCM data, which needs a header to be played.
- * This function creates the necessary RIFF, fmt, and data chunks.
- * @param pcmData The raw PCM audio data as an Int16Array.
- * @param sampleRate The sample rate of the audio (e.g., 16000).
- * @returns A Blob containing the WAV file data.
- */
+
 function pcmToWav(pcmData, sampleRate) {
-    const numChannels = 1; // API returns mono audio
+    const numChannels = 1;
     const bitsPerSample = 16;
     const byteRate = sampleRate * numChannels * (bitsPerSample / 8);
     const blockAlign = numChannels * (bitsPerSample / 8);
@@ -66,55 +55,48 @@ function pcmToWav(pcmData, sampleRate) {
     const buffer = new ArrayBuffer(44 + dataSize);
     const view = new DataView(buffer);
     let offset = 0;
-    // RIFF chunk
-    view.setUint32(offset, 0x52494646, false); // "RIFF"
+    view.setUint32(offset, 0x52494646, false);
     offset += 4;
-    view.setUint32(offset, 36 + dataSize, true); // ChunkSize
+    view.setUint32(offset, 36 + dataSize, true);
     offset += 4;
-    view.setUint32(offset, 0x57415645, false); // "WAVE"
+    view.setUint32(offset, 0x57415645, false);
     offset += 4;
-    // fmt chunk
-    view.setUint32(offset, 0x666d7420, false); // "fmt "
+
+    view.setUint32(offset, 0x666d7420, false);
     offset += 4;
-    view.setUint32(offset, 16, true); // Subchunk1Size
+    view.setUint32(offset, 16, true);
     offset += 4;
-    view.setUint16(offset, 1, true); // AudioFormat (1=PCM)
+    view.setUint16(offset, 1, true);
     offset += 2;
-    view.setUint16(offset, numChannels, true); // NumChannels
+    view.setUint16(offset, numChannels, true);
     offset += 2;
-    view.setUint32(offset, sampleRate, true); // SampleRate
+    view.setUint32(offset, sampleRate, true);
     offset += 4;
-    view.setUint32(offset, byteRate, true); // ByteRate
+    view.setUint32(offset, byteRate, true);
     offset += 4;
-    view.setUint16(offset, blockAlign, true); // BlockAlign
+    view.setUint16(offset, blockAlign, true);
     offset += 2;
-    view.setUint16(offset, bitsPerSample, true); // BitsPerSample
+    view.setUint16(offset, bitsPerSample, true);
     offset += 2;
-    // data chunk
-    view.setUint32(offset, 0x64617461, false); // "data"
+
+    view.setUint32(offset, 0x64617461, false);
     offset += 4;
-    view.setUint32(offset, dataSize, true); // Subchunk2Size
+    view.setUint32(offset, dataSize, true);
     offset += 4;
-    // Write the PCM data
+
     for (let i = 0; i < pcmData.length; i++) {
         view.setInt16(offset, pcmData[i], true);
         offset += 2;
     }
     return new Blob([view], { type: 'audio/wav' });
 }
-/**
- * Generates speech for a given text using the Gemini TTS API.
- * @param text The text to convert to speech.
- * @param voiceName The voice to use (e.g., 'Kore', 'Puck').
- * @returns A promise that resolves with the audio data.
- */
+
 async function textToSpeech(text, voiceName) {
     var _a, _b, _c, _d, _e, _f;
-    console.log(`- Generating audio for: "${text.substring(0, 50)}..."`);
     const payload = {
         contents: [{
-                parts: [{ text: text }]
-            }],
+            parts: [{ text: text }]
+        }],
         generationConfig: {
             responseModalities: ["AUDIO"],
             speechConfig: {
@@ -125,7 +107,7 @@ async function textToSpeech(text, voiceName) {
         },
         model: "gemini-2.5-flash-preview-tts"
     };
-    const apiKey = "AIzaSyD2pRiGxl7MfitqjYuJsPzUZmODeUUhpJo";
+    const apiKey = " "; //key here
     const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent?key=${apiKey}`;
     const response = await fetch(apiUrl, {
         method: 'POST',
@@ -139,54 +121,50 @@ async function textToSpeech(text, voiceName) {
     if (!audioData || !mimeType || !mimeType.startsWith("audio/")) {
         throw new Error('Failed to get audio data from API response.');
     }
-    // Extract sample rate from mimeType, e.g., 'audio/L16;rate=16000'
+
     const match = mimeType.match(/rate=(\d+)/);
     if (!match) {
         throw new Error('Could not determine sample rate from mime type.');
     }
     const sampleRate = parseInt(match[1], 10);
     const pcmData = base64ToArrayBuffer(audioData);
-    // API returns signed PCM 16-bit audio data.
+
     const pcm16 = new Int16Array(pcmData);
     const wavBlob = pcmToWav(pcm16, sampleRate);
     const audioBuffer = await wavBlob.arrayBuffer();
     return Buffer.from(audioBuffer);
 }
-/**
- * Main function to read prompts, generate TTS audio, and save files.
- */
+
 async function runPromptsToTTS() {
     const promptsFile = 'prompts.txt';
     const outputDir = 'audio_output_puck_flash';
     try {
-        console.log(`Reading prompts from "${promptsFile}"...`);
         const fileContent = await fs_1.promises.readFile(promptsFile, 'utf-8');
         const prompts = fileContent.split('\n').filter(line => line.trim() !== '');
         if (prompts.length === 0) {
             console.error(`Error: "${promptsFile}" is empty.`);
             return;
         }
-        console.log(`Found ${prompts.length} prompts. Starting TTS generation...`);
-        // Ensure the output directory exists
+
         await fs_1.promises.mkdir(outputDir, { recursive: true });
         for (const [index, prompt] of prompts.entries()) {
             try {
-                const audioBuffer = await textToSpeech(prompt, 'Puck'); // 'Kore' is a good default voice
-                const fileName = path.join(outputDir, `prompt-${index + 34}.wav`); //${index + 1}
+                const audioBuffer = await textToSpeech(prompt, 'Puck');
+                const fileName = path.join(outputDir, `prompt-${index + 1}.wav`);
                 await fs_1.promises.writeFile(fileName, audioBuffer);
                 console.log(`- Saved audio to "${fileName}"`);
             }
             catch (error) {
                 console.error(`- Failed to generate audio for prompt #${index + 1}:`, error);
             }
-            // Pause for 1 minute every 10 prompts
+
             if ((index + 1) % 8 === 0 && (index + 1) < prompts.length) {
-                console.log(`Pausing for 1 minute to prevent rate limits...`);
+                console.log(`Delay...`);
                 await new Promise(resolve => setTimeout(resolve, 60000));
-                console.log(`Resuming processing.`);
+                console.log(`Resuming...`);
             }
         }
-        console.log(`\nFinished processing all prompts. Check the "${outputDir}" directory for your audio files.`);
+        console.log(`\n"${outputDir}" directory for your audio files.`);
     }
     catch (error) {
         if (error instanceof Error && error.code === 'ENOENT') {
@@ -197,5 +175,4 @@ async function runPromptsToTTS() {
         }
     }
 }
-// Run the main function
 runPromptsToTTS();

@@ -1,22 +1,22 @@
 "use strict";
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function (o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     var desc = Object.getOwnPropertyDescriptor(m, k);
     if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-      desc = { enumerable: true, get: function() { return m[k]; } };
+        desc = { enumerable: true, get: function () { return m[k]; } };
     }
     Object.defineProperty(o, k2, desc);
-}) : (function(o, m, k, k2) {
+}) : (function (o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
 }));
-var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function (o, v) {
     Object.defineProperty(o, "default", { enumerable: true, value: v });
-}) : function(o, v) {
+}) : function (o, v) {
     o["default"] = v;
 });
 var __importStar = (this && this.__importStar) || (function () {
-    var ownKeys = function(o) {
+    var ownKeys = function (o) {
         ownKeys = Object.getOwnPropertyNames || function (o) {
             var ar = [];
             for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;
@@ -35,9 +35,8 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs = __importStar(require("fs"));
 function calculateWER(ref, hyp) {
-    // Normalize both strings: lowercase, remove punctuation, and clean spaces
     const normalize = (str) => {
-        // Common substitutions that shouldn't be penalized as heavily
+
         const substitutions = {
             '&': 'and',
             '1': 'one',
@@ -76,26 +75,26 @@ function calculateWER(ref, hyp) {
     const hypNorm = normalize(hyp);
     const refWords = refNorm.split(' ').filter(word => word.length > 0);
     const hypWords = hypNorm.split(' ').filter(word => word.length > 0);
-    // Handle empty reference case
+
     if (refWords.length === 0) {
         return hypWords.length === 0 ? 0 : 1;
     }
-    // Initialize distance matrix
+
     const d = Array(refWords.length + 1)
         .fill(null)
         .map(() => Array(hypWords.length + 1).fill(0));
-    // Base cases
+
     for (let i = 0; i <= refWords.length; i++)
         d[i][0] = i;
     for (let j = 0; j <= hypWords.length; j++)
         d[0][j] = j;
-    // Fill distance matrix
+
     for (let i = 1; i <= refWords.length; i++) {
         for (let j = 1; j <= hypWords.length; j++) {
             const cost = refWords[i - 1] === hypWords[j - 1] ? 0 : 1;
-            d[i][j] = Math.min(d[i - 1][j] + 1, // deletion
-            d[i][j - 1] + 1, // insertion
-            d[i - 1][j - 1] + cost // substitution
+            d[i][j] = Math.min(d[i - 1][j] + 1,
+                d[i][j - 1] + 1,
+                d[i - 1][j - 1] + cost
             );
         }
     }
@@ -103,30 +102,18 @@ function calculateWER(ref, hyp) {
 }
 function processFiles() {
     try {
-        // Read files
         const prompts = fs.readFileSync('prompts.txt', 'utf-8').split('\n').map(line => line.trim()).filter(line => line);
         const transcriptions = fs.readFileSync('transcriptions_only.txt', 'utf-8').split('\n').map(line => line.trim()).filter(line => line);
-        // Check if we have matching counts
         if (prompts.length !== transcriptions.length) {
-            console.error(`Mismatched line counts: prompts.txt has ${prompts.length} lines, transcriptions_only.txt has ${transcriptions.length} lines`);
+            console.error(`Mismatched line counts.`);
             return;
         }
-        // Calculate and print WER for each pair (up to 50)
         const maxLines = Math.min(prompts.length, 50);
-        console.log(`WER Scores (1-${maxLines}):`);
         for (let i = 0; i < maxLines; i++) {
             const wer = calculateWER(prompts[i], transcriptions[i]);
-            console.log(wer.toFixed(4)); // Print each score on its own line with 4 decimal places
+            console.log(wer.toFixed(4));
         }
-        // Additional statistics
-        const werScores = [];
-        for (let i = 0; i < maxLines; i++) {
-            werScores.push(calculateWER(prompts[i], transcriptions[i]));
-        }
-        const averageWER = werScores.reduce((sum, score) => sum + score, 0) / werScores.length;
-        console.log(`\nAverage WER: ${averageWER.toFixed(4)}`);
-        console.log(`Highest WER: ${Math.max(...werScores).toFixed(4)}`);
-        console.log(`Lowest WER: ${Math.min(...werScores).toFixed(4)}`);
+        ;
     }
     catch (error) {
         console.error('Error processing files:', error);
